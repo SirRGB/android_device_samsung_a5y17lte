@@ -32,10 +32,15 @@ TARGET_BOOTANIMATION_TEXTURE_CACHE := true
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
-## Device identifier. This must come after all inclusions
+# Device identifier. This must come after all inclusions
 PRODUCT_NAME := kasumi_a5y17lte
 PRODUCT_DEVICE := a5y17lte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A520F
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+
+# Kasumi specific flags
+TARGET_BOOT_ANIMATION_RES := 1080
+KASUMI_SHIP_ADAWAY := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
