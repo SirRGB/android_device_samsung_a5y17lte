@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_a5y17lte.mk
+    $(LOCAL_DIR)/carbon_a5y17lte.mk
+
+COMMON_LUNCH_CHOICES := \
+    carbon_a5y17lte-user \
+    carbon_a5y17lte-userdebug \
+    carbon_a5y17lte-eng
